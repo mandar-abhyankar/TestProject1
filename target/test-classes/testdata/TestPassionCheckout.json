@@ -1,0 +1,17 @@
+{
+	"CheckOutPage": [
+		{
+			"Email": "abc@xyz.com",
+			"Name": "Mandar",
+			"Address": "10 Downing Street, London"
+		}
+	],
+	"LetsTalkTea": [
+		{
+			"Name": "Mandar",
+			"Email": "abc@xyz.com",
+			"Subject": "Hello World!",
+			"Message": "Your Welcome!"
+		}
+	]
+}
