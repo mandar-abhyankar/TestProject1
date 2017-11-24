@@ -3,6 +3,7 @@ package scenarios;
 import java.io.File;
 import java.io.IOException;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -59,6 +60,14 @@ public class TestPassionTea {
 		pth.clickLetsTalkTeaMenu();
 		LetsTalkTeaPage lttp = new LetsTalkTeaPage(webdriver);
 		lttp.enterName(fdbkname);
+	}
+	
+	@After
+	public void destroy(){
+		
+		webdriver.close();
+		webdriver.quit();
+		
 	}
 
 }
